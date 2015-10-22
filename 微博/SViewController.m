@@ -9,7 +9,8 @@
 #import "SViewController.h"
 
 @interface SViewController ()
-
+@property(nonatomic,copy)NSString *gujinyue;
+@property(nonatomic,copy)NSString *chenyufeng;
 @end
 
 @implementation SViewController
