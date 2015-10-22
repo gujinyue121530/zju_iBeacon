@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		71ADD5941BD9094F00196825 /* SViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ADD5931BD9094F00196825 /* SViewController.m */; settings = {ASSET_TAGS = (); }; };
 		9D36862D1BD6864A0099FADB /* xuyoutian.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D36862C1BD6864A0099FADB /* xuyoutian.m */; settings = {ASSET_TAGS = (); }; };
 		9D56C33A1BAFF237004B3539 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D56C3391BAFF237004B3539 /* main.m */; };
 		9D56C33D1BAFF237004B3539 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D56C33C1BAFF237004B3539 /* AppDelegate.m */; };
@@ -44,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		71ADD5921BD9094F00196825 /* SViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SViewController.h; sourceTree = "<group>"; };
+		71ADD5931BD9094F00196825 /* SViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SViewController.m; sourceTree = "<group>"; };
 		9D36862B1BD6864A0099FADB /* xuyoutian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xuyoutian.h; sourceTree = "<group>"; };
 		9D36862C1BD6864A0099FADB /* xuyoutian.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xuyoutian.m; sourceTree = "<group>"; };
 		9D56C3341BAFF237004B3539 /* 微博.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "微博.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -173,6 +176,8 @@
 			children = (
 				9D56C33E1BAFF237004B3539 /* ViewController.h */,
 				9D56C33F1BAFF237004B3539 /* ViewController.m */,
+				71ADD5921BD9094F00196825 /* SViewController.h */,
+				71ADD5931BD9094F00196825 /* SViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -361,6 +366,7 @@
 				9DE0E4831BB11D26008FD739 /* FKStatusFrame.m in Sources */,
 				9D56C3401BAFF237004B3539 /* ViewController.m in Sources */,
 				9D56C33D1BAFF237004B3539 /* AppDelegate.m in Sources */,
+				71ADD5941BD9094F00196825 /* SViewController.m in Sources */,
 				9D56C33A1BAFF237004B3539 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
